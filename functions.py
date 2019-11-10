@@ -65,12 +65,7 @@ def plot(datadict):
             for element in range(len(datadict[0][1][count])):
                 info.append(
                     tuple 
-                        (
-                        [datadict[0][1][count][element], 
-                        datadict[1][1][count][element], 
-                        datadict[2][1][count][element], 
-                        datadict[3][1][count][element], 
-                        datadict[4][1][count][element]]
+                        ([datadict[k][1][count][element] for k in range(0, 5)]
                         ))
             mpl.candlestick_ohlc(axis[i][j], info, width=0.2, colorup='g', colordown='r', alpha=1.0)
             
