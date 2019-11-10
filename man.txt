@@ -1,0 +1,9 @@
+Manual de Uso:
+
+Para usar essa ferramente de observar gráficos é necessário instalar o Wrapper do AlphaVantage com pip --install --user AlphaVantage
+É recomendado a instalação do pandas também com pip --install --user Pandas
+
+Também é necessário instalar o Matplotlib completo, MPL_Finances e o Numpy para o uso do correto do sistema
+
+O programa já vem carregado com algumas moedas padrões (ETH, XMR, AID, e ZRX), é possível a troca dessas moedas e do mercado em que se quer observar.
+É necessário olhar nas documentações da api AlphaVantage quais moedas estão disponiveis para quais mercados pois não são todas.
